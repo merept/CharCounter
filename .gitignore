@@ -1,2 +1,5 @@
+/.idea/
 /output/*
 /file/*
+!/file/sample.txt
+!/output/cc_res_sample.*

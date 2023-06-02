@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+	<Article totalCount="798">
+		<Character name="e">
+			<Times>100</Times>
+			<Percentage>0.1253</Percentage>
+		</Character>
+		<Character name="t">
+			<Times>64</Times>
+			<Percentage>0.0802</Percentage>
+		</Character>
+		<Character name="h">
+			<Times>63</Times>
+			<Percentage>0.0789</Percentage>
+		</Character>
+		<Character name="i">
+			<Times>60</Times>
+			<Percentage>0.0752</Percentage>
+		</Character>
+		<Character name="n">
+			<Times>57</Times>
+			<Percentage>0.0714</Percentage>
+		</Character>
+		<Character name="s">
+			<Times>57</Times>
+			<Percentage>0.0714</Percentage>
+		</Character>
+		<Character name="a">
+			<Times>57</Times>
+			<Percentage>0.0714</Percentage>
+		</Character>
+		<Character name="o">
+			<Times>52</Times>
+			<Percentage>0.0652</Percentage>
+		</Character>
+		<Character name="d">
+			<Times>45</Times>
+			<Percentage>0.0564</Percentage>
+		</Character>
+		<Character name="r">
+			<Times>41</Times>
+			<Percentage>0.0514</Percentage>
+		</Character>
+		<Character name="g">
+			<Times>32</Times>
+			<Percentage>0.0401</Percentage>
+		</Character>
+		<Character name="l">
+			<Times>31</Times>
+			<Percentage>0.0388</Percentage>
+		</Character>
+		<Character name="u">
+			<Times>26</Times>
+			<Percentage>0.0326</Percentage>
+		</Character>
+		<Character name="w">
+			<Times>21</Times>
+			<Percentage>0.0263</Percentage>
+		</Character>
+		<Character name="c">
+			<Times>19</Times>
+			<Percentage>0.0238</Percentage>
+		</Character>
+		<Character name="p">
+			<Times>15</Times>
+			<Percentage>0.0188</Percentage>
+		</Character>
+		<Character name="m">
+			<Times>15</Times>
+			<Percentage>0.0188</Percentage>
+		</Character>
+		<Character name="f">
+			<Times>13</Times>
+			<Percentage>0.0163</Percentage>
+		</Character>
+		<Character name="b">
+			<Times>8</Times>
+			<Percentage>0.01</Percentage>
+		</Character>
+		<Character name="y">
+			<Times>8</Times>
+			<Percentage>0.01</Percentage>
+		</Character>
+		<Character name="v">
+			<Times>7</Times>
+			<Percentage>0.0088</Percentage>
+		</Character>
+		<Character name="k">
+			<Times>4</Times>
+			<Percentage>0.005</Percentage>
+		</Character>
+		<Character name="x">
+			<Times>2</Times>
+			<Percentage>0.0025</Percentage>
+		</Character>
+		<Character name="j">
+			<Times>1</Times>
+			<Percentage>0.0013</Percentage>
+		</Character>
+	</Article>

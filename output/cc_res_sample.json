@@ -1,0 +1,149 @@
+{
+  "totalCount": 798,
+  "characterCount": [
+    {
+      "e": {
+        "times": 100,
+        "percentage": 0.1253
+      }
+    },
+    {
+      "t": {
+        "times": 64,
+        "percentage": 0.0802
+      }
+    },
+    {
+      "h": {
+        "times": 63,
+        "percentage": 0.0789
+      }
+    },
+    {
+      "i": {
+        "times": 60,
+        "percentage": 0.0752
+      }
+    },
+    {
+      "n": {
+        "times": 57,
+        "percentage": 0.0714
+      }
+    },
+    {
+      "s": {
+        "times": 57,
+        "percentage": 0.0714
+      }
+    },
+    {
+      "a": {
+        "times": 57,
+        "percentage": 0.0714
+      }
+    },
+    {
+      "o": {
+        "times": 52,
+        "percentage": 0.0652
+      }
+    },
+    {
+      "d": {
+        "times": 45,
+        "percentage": 0.0564
+      }
+    },
+    {
+      "r": {
+        "times": 41,
+        "percentage": 0.0514
+      }
+    },
+    {
+      "g": {
+        "times": 32,
+        "percentage": 0.0401
+      }
+    },
+    {
+      "l": {
+        "times": 31,
+        "percentage": 0.0388
+      }
+    },
+    {
+      "u": {
+        "times": 26,
+        "percentage": 0.0326
+      }
+    },
+    {
+      "w": {
+        "times": 21,
+        "percentage": 0.0263
+      }
+    },
+    {
+      "c": {
+        "times": 19,
+        "percentage": 0.0238
+      }
+    },
+    {
+      "p": {
+        "times": 15,
+        "percentage": 0.0188
+      }
+    },
+    {
+      "m": {
+        "times": 15,
+        "percentage": 0.0188
+      }
+    },
+    {
+      "f": {
+        "times": 13,
+        "percentage": 0.0163
+      }
+    },
+    {
+      "b": {
+        "times": 8,
+        "percentage": 0.01
+      }
+    },
+    {
+      "y": {
+        "times": 8,
+        "percentage": 0.01
+      }
+    },
+    {
+      "v": {
+        "times": 7,
+        "percentage": 0.0088
+      }
+    },
+    {
+      "k": {
+        "times": 4,
+        "percentage": 0.005
+      }
+    },
+    {
+      "x": {
+        "times": 2,
+        "percentage": 0.0025
+      }
+    },
+    {
+      "j": {
+        "times": 1,
+        "percentage": 0.0013
+      }
+    }
+  ]
+}
