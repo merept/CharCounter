@@ -1,6 +1,8 @@
 {
   "enterPath": "请输入文件路径或直接将文件拖拽到此窗口",
   "changeLang": "输入以下代码更改语言:\nzh-cn -> 简体中文\nen -> 英文",
+  "charAna": "字频分析",
+  "wordAna": "词频分析",
   "currentFile": "当前文件",
   "selInfo": "选择以何种方式查看结果",
   "terminal": "在终端显示结果",

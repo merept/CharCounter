@@ -1,3 +1,8 @@
+import re
+import os
+
+import jieba
+
 from src.output import Output
 
 
@@ -5,11 +10,23 @@ def file_lines_to_lower(file_path):
     return open(file_path, encoding="utf-8").read().lower().splitlines()
 
 
+def is_chinese(value):
+    return re.compile(r'[\u4e00-\u9fa5]+').search(value)
+
+
+def is_english(value):
+    return re.compile(r'[A-Za-z]+').search(value)
+
+
+def is_word(word):
+    return is_chinese(word) or is_english(word)
+
+
 def is_character(char):
     return True if '\u4e00' <= char <= '\u9fff' or char.isalpha() else False
 
 
-def get_count_from_lines(values):
+def char_count_from_lines(values):
     results = {}
     total_chars = 0
     for value in values:
@@ -24,16 +41,49 @@ def get_count_from_lines(values):
     return results, total_chars
 
 
+def word_count_from_lines(values):
+    results = {}
+    total_words = 0
+    for value in values:
+        if is_chinese(value):
+            words = jieba.lcut(value)
+        else:
+            words = re.split("[,. ]", value)
+        for word in words:
+            if not is_word(word):
+                continue
+            if word in results:
+                results[word] += 1
+            else:
+                results[word] = 1
+            total_words += 1
+    return results, total_words
+
+
 def get_second(element):
     return element[1]
 
 
+def is_analysis_char(dictionary):
+    print(f'1.{dictionary["charAna"]}\n2.{dictionary["wordAna"]}')
+    select = input(f'{dictionary["select"]} > ')
+    return True if select == '1' else False
+
+
 def count(file_path, dictionary):
     lines = file_lines_to_lower(file_path)
-    output = Output(file_path, dictionary)
-    lines_dict, total_count = get_count_from_lines(lines)
+
+    is_ana_char = is_analysis_char(dictionary)
+    if is_ana_char:
+        lines_dict, total_count = char_count_from_lines(lines)
+    else:
+        lines_dict, total_count = word_count_from_lines(lines)
+
+    output = Output(file_path, is_ana_char, dictionary)
     ls = list(lines_dict.items())
     ls.sort(key=get_second, reverse=True)
+
+    os.system('cls')
     print(f'{dictionary["currentFile"]}: {file_path}\n'
           f'{dictionary["selInfo"]}:\n'
           f'1.{dictionary["terminal"]}\n'
@@ -43,6 +93,7 @@ def count(file_path, dictionary):
           f'5.{dictionary["xml"]}\n'
           f'6.{dictionary["excel"]}\n'
           f'0.{dictionary["exit"]}')
+
     select = input(f'{dictionary["select"]} > ')
     done = False
     is_exit = False

@@ -1,6 +1,8 @@
 {
   "enterPath": "Please enter the file path or drag and drop the file directly into this window",
   "changeLang": "Enter the following code to change the language:\nzh-cn -> Simplified Chinese \nen -> English",
+  "charAna": "Character frequency analysis",
+  "wordAna": "Word Frequency Analysis",
   "currentFile": "Current file",
   "selInfo": "Select how to view the results",
   "terminal": "Show on the terminal",

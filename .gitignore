@@ -2,5 +2,6 @@
 /output/*
 /file/*
 /src/__pycache__/
+/lang_temp/
 !/file/sample.txt
-!/output/cc_res_sample.*
+!/output/*_res_sample.*

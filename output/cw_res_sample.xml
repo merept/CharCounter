@@ -1,0 +1,459 @@
+<?xml version="1.0" ?>
+	<Article totalCount="180">
+		<Character name="his">
+			<Times>9</Times>
+			<Percentage>0.05</Percentage>
+		</Character>
+		<Character name="he">
+			<Times>7</Times>
+			<Percentage>0.0389</Percentage>
+		</Character>
+		<Character name="to">
+			<Times>7</Times>
+			<Percentage>0.0389</Percentage>
+		</Character>
+		<Character name="and">
+			<Times>7</Times>
+			<Percentage>0.0389</Percentage>
+		</Character>
+		<Character name="him">
+			<Times>6</Times>
+			<Percentage>0.0333</Percentage>
+		</Character>
+		<Character name="the">
+			<Times>5</Times>
+			<Percentage>0.0278</Percentage>
+		</Character>
+		<Character name="was">
+			<Times>5</Times>
+			<Percentage>0.0278</Percentage>
+		</Character>
+		<Character name="english">
+			<Times>5</Times>
+			<Percentage>0.0278</Percentage>
+		</Character>
+		<Character name="with">
+			<Times>5</Times>
+			<Percentage>0.0278</Percentage>
+		</Character>
+		<Character name="in">
+			<Times>4</Times>
+			<Percentage>0.0222</Percentage>
+		</Character>
+		<Character name="a">
+			<Times>3</Times>
+			<Percentage>0.0167</Percentage>
+		</Character>
+		<Character name="she">
+			<Times>3</Times>
+			<Percentage>0.0167</Percentage>
+		</Character>
+		<Character name="from">
+			<Times>3</Times>
+			<Percentage>0.0167</Percentage>
+		</Character>
+		<Character name="teenager">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="up">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="got">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="because">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="of">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="about">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="well">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="down">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="face">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="has">
+			<Times>2</Times>
+			<Percentage>0.0111</Percentage>
+		</Character>
+		<Character name="hiding">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="behind">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="loose">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="dusty">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="curtain">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="packed">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="overcoat">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="into">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="suitcase">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="planned">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="leave">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="home">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="at">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="dusk">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="though">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="there">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="thunder">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="lightning">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="outdoors">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="had">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="do">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="this">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="tired">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="parents’">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="nagging">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="study">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="did">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="not">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="want">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="go">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="through">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="it">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="any">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="longer">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="couldn’t">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="get">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="along">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="disliked">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="joining">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="classes">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="thought">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="teacher">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="ignored">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="on">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="purpose">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="as">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="result">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="score">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="each">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="exam">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="never">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="added">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="over">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="partner">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="concerned">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="very">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="much">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="understood">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="exactly">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="what">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="suffering">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="but">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="entirely">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="disagreed">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="idea">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="order">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="calm">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="settle">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="problem">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="talked">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="swapped">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="series">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="learning">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="tips">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="items">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="set">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="helped">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="find">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="highway">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="studying">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="grateful">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="great">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="power">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="friend’s">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="words">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="now">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="recovered">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="being">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="upset">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="fallen">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+		<Character name="love">
+			<Times>1</Times>
+			<Percentage>0.0056</Percentage>
+		</Character>
+	</Article>

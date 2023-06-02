@@ -22,8 +22,13 @@ class Output:
         name, ext = os.path.splitext(self.file_path)
         return name.split('\\')[-1].replace(' ', '_')
 
-    def __init__(self, file_path, dictionary):
+    @property
+    def prefix(self):
+        return 'cc' if self.is_analysis_char else 'cw'
+
+    def __init__(self, file_path, is_analysis_char, dictionary):
         self.file_path = file_path
+        self.is_analysis_char = is_analysis_char
         self.dictionary = dictionary
 
     def to_string(self, value, count):
@@ -52,7 +57,7 @@ class Output:
         print(f'文件: {self.file_path}\n' + df)
 
     def to_csv(self, value, count):
-        filename = rf'.\output\cc_res_{self.file_name}.csv'
+        filename = rf'.\output\{self.prefix}_res_{self.file_name}.csv'
         csvfile = open(filename, mode='w', newline='', encoding='utf_8_sig')
         fieldnames = [f'{self.dictionary["char"]}', f'{self.dictionary["count"]}', f'{self.dictionary["per"]}']
         write = csv.DictWriter(csvfile, fieldnames=fieldnames)
@@ -66,7 +71,7 @@ class Output:
         print(f'{self.dictionary["success"]} {output_full_path(filename)}\n')
 
     def to_json_yaml(self, value, count, is_yaml=False):
-        filename = rf'.\output\cc_res_{self.file_name}.{"yaml" if is_yaml else "json"}'
+        filename = rf'.\output\{self.prefix}_res_{self.file_name}.{"yaml" if is_yaml else "json"}'
         result_dict = {
             "totalCount": count,
             "characterCount": []
@@ -86,7 +91,7 @@ class Output:
         print(f'{self.dictionary["success"]} {output_full_path(filename)}\n')
 
     def to_xml(self, value, count):
-        filename = rf'.\output\cc_res_{self.file_name}.xml'
+        filename = rf'.\output\{self.prefix}_res_{self.file_name}.xml'
 
         dom = Document()
         article = dom.createElement('Article')
@@ -116,7 +121,7 @@ class Output:
         print(f'{self.dictionary["success"]} {output_full_path(filename)}\n')
 
     def to_xlsx(self, value, count):
-        filename = rf'.\output\cc_res_{self.file_name}.xlsx'
+        filename = rf'.\output\{self.prefix}_res_{self.file_name}.xlsx'
         df_dict = {
             f'{self.dictionary["char"]}': [],
             f'{self.dictionary["count"]}': [],
