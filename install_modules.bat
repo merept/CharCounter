@@ -10,18 +10,28 @@ call :ColorText 0a " pandas"
 echo=
 pip install pandas
 echo=
+
 call :ColorText 0b "install"
 call :ColorText 0a " PyYAML"
 echo=
 pip install PyYAML
 echo=
+
 call :ColorText 0b "install"
 call :ColorText 0a " openpyxl"
 echo=
 pip install openpyxl
 echo=
+
+call :ColorText 0b "install"
+call :ColorText 0a " jieba"
+echo=
+pip install jieba
+echo=
+
 call :ColorText 0a "Install finished"
 echo=
+
 pause
 
 goto :eof
