@@ -1,4 +1,4 @@
-from output import Output
+from src.output import Output
 
 
 def file_lines_to_lower(file_path):
