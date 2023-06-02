@@ -1,5 +1,6 @@
 /.idea/
 /output/*
 /file/*
+/src/__pycache__/
 !/file/sample.txt
 !/output/cc_res_sample.*
