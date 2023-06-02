@@ -28,22 +28,22 @@ def get_second(element):
     return element[1]
 
 
-def count(file_path):
+def count(file_path, dictionary):
     lines = file_lines_to_lower(file_path)
-    output = Output(file_path)
+    output = Output(file_path, dictionary)
     lines_dict, total_count = get_count_from_lines(lines)
     ls = list(lines_dict.items())
     ls.sort(key=get_second, reverse=True)
-    print(f'当前文件: {file_path}\n'
-          '选择以何种方式查看结果:\n'
-          '1.在终端显示结果\n'
-          '2.导出为 CSV 文件\n'
-          '3.导出为 JSON 文件\n'
-          '4.导出为 YAML 文件\n'
-          '5.导出为 XML 文件\n'
-          '6.导出为 Excel 文件\n'
-          '0.退出')
-    select = input('请输入选项 > ')
+    print(f'{dictionary["currentFile"]}: {file_path}\n'
+          f'{dictionary["selInfo"]}:\n'
+          f'1.{dictionary["terminal"]}\n'
+          f'2.{dictionary["csv"]}\n'
+          f'3.{dictionary["json"]}\n'
+          f'4.{dictionary["yaml"]}\n'
+          f'5.{dictionary["xml"]}\n'
+          f'6.{dictionary["excel"]}\n'
+          f'0.{dictionary["exit"]}')
+    select = input(f'{dictionary["select"]} > ')
     done = False
     is_exit = False
     while not done:
@@ -63,7 +63,7 @@ def count(file_path):
         elif select == '0':
             is_exit = True
         else:
-            select = input('\n输入错误, 请重新输入 > ')
+            select = input(f'\n{dictionary["wrongSel"]} > ')
             done = False
 
     return is_exit

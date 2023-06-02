@@ -1,0 +1,21 @@
+{
+  "enterPath": "请输入文件路径或直接将文件拖拽到此窗口",
+  "changeLang": "输入以下代码更改语言:\nzh-cn -> 简体中文\nen -> 英文",
+  "currentFile": "当前文件",
+  "selInfo": "选择以何种方式查看结果",
+  "terminal": "在终端显示结果",
+  "csv": "导出为 CSV 文件",
+  "json": "导出为 JSON 文件",
+  "yaml": "导出为 YAML 文件",
+  "xml": "导出为 XML 文件",
+  "excel": "导出为 Excel 文件",
+  "exit": "退出",
+  "select": "请输入选项",
+  "wrongSel": "输入错误, 请重新输入",
+  "terFile": "文件",
+  "totalCount": "总字符数",
+  "char": "字符",
+  "count": "计数",
+  "per": "占比",
+  "success": "成功将结果保存到"
+}
