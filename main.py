@@ -1,6 +1,6 @@
 import os
 
-import count
+from src import count
 
 if __name__ == '__main__':
     path = input('请输入文件路径或直接将文件拖拽到此窗口 > ')
