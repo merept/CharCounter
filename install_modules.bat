@@ -7,3 +7,6 @@ pip install PyYAML
 echo=
 echo install openpyxl
 pip install openpyxl
+echo=
+echo Install finished
+pause
