@@ -29,6 +29,12 @@ echo=
 pip install jieba
 echo=
 
+call :ColorText 0b "install"
+call :ColorText 0a " wordninja"
+echo=
+pip install wordninja
+echo=
+
 call :ColorText 0a "Install finished"
 echo=
 

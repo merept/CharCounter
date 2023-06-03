@@ -2,6 +2,7 @@ import re
 import os
 
 import jieba
+import wordninja
 
 from src.output import Output
 
@@ -20,6 +21,20 @@ def is_english(value):
 
 def is_word(word):
     return is_chinese(word) or is_english(word)
+
+
+def is_mixed(line):
+    return is_chinese(line) and is_english(line)
+
+
+def extract_chinese(line):
+    pattern = re.compile(r'[^\u4e00-\u9fa5]+')
+    return re.sub(pattern, '', line)
+
+
+def extract_english(line):
+    pattern = re.compile(r'[\u4e00-\u9fa5]+')
+    return re.sub(pattern, '', line)
 
 
 def is_character(char):
@@ -45,10 +60,15 @@ def word_count_from_lines(values):
     results = {}
     total_words = 0
     for value in values:
-        if is_chinese(value):
+        if is_mixed(value):
+            chinese = extract_chinese(value)
+            english = extract_english(value)
+            words = jieba.lcut(chinese)
+            words += wordninja.split(english)
+        elif is_chinese(value):
             words = jieba.lcut(value)
         else:
-            words = re.split("[,. ]", value)
+            words = wordninja.split(value)
         for word in words:
             if not is_word(word):
                 continue
