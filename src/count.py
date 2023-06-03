@@ -1,5 +1,5 @@
-import re
 import os
+import re
 
 import jieba
 import wordninja
@@ -90,19 +90,7 @@ def is_analysis_char(dictionary):
     return True if select == '1' else False
 
 
-def count(file_path, dictionary):
-    lines = file_lines_to_lower(file_path)
-
-    is_ana_char = is_analysis_char(dictionary)
-    if is_ana_char:
-        lines_dict, total_count = char_count_from_lines(lines)
-    else:
-        lines_dict, total_count = word_count_from_lines(lines)
-
-    output = Output(file_path, is_ana_char, dictionary)
-    ls = list(lines_dict.items())
-    ls.sort(key=get_second, reverse=True)
-
+def display_menu(dictionary, file_path):
     os.system('cls')
     print(f'{dictionary["currentFile"]}: {file_path}\n'
           f'{dictionary["selInfo"]}:\n'
@@ -114,6 +102,8 @@ def count(file_path, dictionary):
           f'6.{dictionary["excel"]}\n'
           f'0.{dictionary["exit"]}')
 
+
+def selecting(dictionary, output, ls, total_count):
     select = input(f'{dictionary["select"]} > ')
     done = False
     is_exit = False
@@ -136,5 +126,22 @@ def count(file_path, dictionary):
         else:
             select = input(f'\n{dictionary["wrongSel"]} > ')
             done = False
-
     return is_exit
+
+
+def count(file_path, dictionary):
+    lines = file_lines_to_lower(file_path)
+
+    is_ana_char = is_analysis_char(dictionary)
+    if is_ana_char:
+        lines_dict, total_count = char_count_from_lines(lines)
+    else:
+        lines_dict, total_count = word_count_from_lines(lines)
+
+    output = Output(file_path, is_ana_char, dictionary)
+    ls = list(lines_dict.items())
+    ls.sort(key=get_second, reverse=True)
+
+    display_menu(dictionary, file_path)
+
+    return selecting(dictionary, output, ls, total_count)
