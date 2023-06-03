@@ -11,6 +11,7 @@
   "yaml": "Export as .yaml",
   "xml": "Export as .xml",
   "excel": "Export as .xlsx",
+  "reRead": "Re-read the file",
   "exit": "Exit",
   "select": "Select",
   "wrongSel": "Input error, please re-enter",

@@ -11,6 +11,7 @@
   "yaml": "导出为 YAML 文件",
   "xml": "导出为 XML 文件",
   "excel": "导出为 Excel 文件",
+  "reRead": "重新读取文件",
   "exit": "退出",
   "select": "请输入选项",
   "wrongSel": "输入错误, 请重新输入",

@@ -100,6 +100,7 @@ def display_menu(dictionary, file_path):
           f'4.{dictionary["yaml"]}\n'
           f'5.{dictionary["xml"]}\n'
           f'6.{dictionary["excel"]}\n'
+          f'7.{dictionary["reRead"]}\n'
           f'0.{dictionary["exit"]}')
 
 
@@ -107,6 +108,7 @@ def selecting(dictionary, output, ls, total_count):
     select = input(f'{dictionary["select"]} > ')
     done = False
     is_exit = False
+    re_read_file = False
     while not done:
         done = True
         if select == '1':
@@ -121,12 +123,15 @@ def selecting(dictionary, output, ls, total_count):
             output.to_xml(ls, total_count)
         elif select == '6':
             output.to_xlsx(ls, total_count)
+        elif select == '7':
+            re_read_file = True
+            os.system('cls')
         elif select == '0':
             is_exit = True
         else:
             select = input(f'\n{dictionary["wrongSel"]} > ')
             done = False
-    return is_exit
+    return is_exit, re_read_file
 
 
 def count(file_path, dictionary):
