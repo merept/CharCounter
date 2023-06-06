@@ -2,16 +2,15 @@ import os
 import yaml
 import json
 
-from src import count
+from service import count
 
 
 def read_lang_cfg():
-    setting = ''
-    with open(r'.\lang\setting', mode='r', encoding='utf-8') as file:
+    with open(r'.\res\setting', mode='r', encoding='utf-8') as file:
         setting_dict = yaml.load(file, yaml.FullLoader)
         setting = setting_dict['language']
 
-    with open(rf'.\lang\{setting}', mode='r', encoding='utf-8') as file:
+    with open(rf'.\res\lang\{setting}', mode='r', encoding='utf-8') as file:
         lang_dict = json.load(file)
 
     return lang_dict, setting_dict
@@ -19,7 +18,7 @@ def read_lang_cfg():
 
 def change_language(language, new_lang):
     language["language"] = new_lang
-    with open(r'.\lang\setting', mode='w', encoding='utf-8') as file:
+    with open(r'.\res\setting', mode='w', encoding='utf-8') as file:
         yaml.dump(language, file, indent=2)
     os.system('cls')
     main()
@@ -41,7 +40,6 @@ def read_file():
 def main():
     path, dictionary = read_file()
     is_exit = False
-    re_read_file = False
     os.system('cls')
     while not is_exit:
         is_exit, re_read_file = count.count(path, dictionary)
@@ -52,4 +50,5 @@ def main():
 
 
 if __name__ == '__main__':
+    os.system('cls')
     main()

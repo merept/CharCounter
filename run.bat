@@ -1,2 +1,3 @@
 @echo off
-python main.py
+call python .\src\checkModule.py
+call python .\src\main.py

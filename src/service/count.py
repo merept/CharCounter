@@ -4,7 +4,7 @@ import re
 import jieba
 import wordninja
 
-from src.output import Output
+from .output import Output
 
 
 def file_lines_to_lower(file_path):
