@@ -1,0 +1,701 @@
+{
+  "totalCount": 182,
+  "characterCount": [
+    {
+      "his": {
+        "times": 9,
+        "percentage": 0.0495
+      }
+    },
+    {
+      "he": {
+        "times": 7,
+        "percentage": 0.0385
+      }
+    },
+    {
+      "to": {
+        "times": 7,
+        "percentage": 0.0385
+      }
+    },
+    {
+      "and": {
+        "times": 7,
+        "percentage": 0.0385
+      }
+    },
+    {
+      "him": {
+        "times": 6,
+        "percentage": 0.033
+      }
+    },
+    {
+      "the": {
+        "times": 5,
+        "percentage": 0.0275
+      }
+    },
+    {
+      "was": {
+        "times": 5,
+        "percentage": 0.0275
+      }
+    },
+    {
+      "english": {
+        "times": 5,
+        "percentage": 0.0275
+      }
+    },
+    {
+      "with": {
+        "times": 5,
+        "percentage": 0.0275
+      }
+    },
+    {
+      "in": {
+        "times": 4,
+        "percentage": 0.022
+      }
+    },
+    {
+      "a": {
+        "times": 3,
+        "percentage": 0.0165
+      }
+    },
+    {
+      "she": {
+        "times": 3,
+        "percentage": 0.0165
+      }
+    },
+    {
+      "from": {
+        "times": 3,
+        "percentage": 0.0165
+      }
+    },
+    {
+      "teenager": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "up": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "got": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "because": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "of": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "about": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "well": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "down": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "face": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "has": {
+        "times": 2,
+        "percentage": 0.011
+      }
+    },
+    {
+      "hiding": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "behind": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "loose": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "dusty": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "curtain": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "packed": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "overcoat": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "into": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "suitcase": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "planned": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "leave": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "home": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "at": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "dusk": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "though": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "there": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "thunder": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "lightning": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "outdoors": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "had": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "do": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "this": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "tired": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "parents": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "nagging": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "study": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "did": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "not": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "want": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "go": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "through": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "it": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "any": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "longer": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "couldn": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "t": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "get": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "along": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "disliked": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "joining": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "classes": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "thought": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "teacher": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "ignored": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "on": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "purpose": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "as": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "result": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "score": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "each": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "exam": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "never": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "added": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "over": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "partner": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "concerned": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "very": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "much": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "understood": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "exactly": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "what": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "suffering": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "but": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "entirely": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "disagreed": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "idea": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "order": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "calm": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "settle": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "problem": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "talked": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "swapped": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "series": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "learning": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "tips": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "items": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "set": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "helped": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "find": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "highway": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "studying": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "grateful": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "great": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "power": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "friend": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "s": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "words": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "now": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "recovered": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "being": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "upset": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "fallen": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    },
+    {
+      "love": {
+        "times": 1,
+        "percentage": 0.0055
+      }
+    }
+  ]
+}

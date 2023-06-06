@@ -1,6 +1,6 @@
 /.idea/
 /output/*
-/file/*
+/file/
 /src/__pycache__/
 /lang_temp/
 !/output/*_res_sample.*
