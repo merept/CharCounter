@@ -3,6 +3,5 @@
 /file/*
 /src/__pycache__/
 /lang_temp/
-!/file/sample.txt
 !/output/*_res_sample.*
 /ColorfulPrint.md
